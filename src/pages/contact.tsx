@@ -93,14 +93,14 @@ export default function ContactPage() {
 
       {/* خريطة الموقع */}
       <section>
-        <h2 className="text-2xl font-semibold mb-4">خريطة الموقع</h2>
-        <div className="w-full h-64 border rounded-lg overflow-hidden shadow-md">
+        <h2 className="text-2xl font-semibold mb-4">موقعنا</h2>
+        <div className="w-full h-80 border rounded-lg overflow-hidden shadow-md">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.216082093605!2d54.361!3d24.466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e65f65b85c3b5%3A0x6d726e9c49d2e5cb!2z2KfZhNiz2KfYtNin2Kog2YbYp9iv2YrZhtin2Kog2KfZhNmH2KfYsdin2Ko!5e0!3m2!1sar!2sae!4v1615504238953!5m2!1sar!2sae"
             width="100%"
             height="100%"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen={true}
             loading="lazy"
           ></iframe>
         </div>
