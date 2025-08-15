@@ -6,9 +6,9 @@ const Services = () => {
   return (
     <section id="services" className="py-10">
       <div className="container">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-4">
-            خدماتنا
+        <div className="text-center mb-5">
+          <h2 className="text-4xl font-bold text-gradient mb-4">
+            ما هي خدماتنا؟
           </h2>
           <div className="w-20 h-1 gradient-hero rounded-full mx-auto"></div>
         </div>
@@ -28,28 +28,28 @@ const Services = () => {
 
             {/* المحتوى النصي */}
             <div className="space-y-8">
-              <ul className="space-y-6 text-lg leading-relaxed">
+              <ul className="space-y-6 leading-relaxed">
                 <li>
-                  <strong className="text-xl">الدهانات:</strong> معجون دهان
-                  بلاستيكي أبيض أو ألوان محايدة (طبقتان)
+                  <strong>الدهانات:</strong> معجون دهان بلاستيكي أبيض أو ألوان
+                  محايدة (طبقتان)
                 </li>
                 <li>
-                  <strong className="text-xl">الحمامات:</strong> خلّاطات من
-                  ماركات اقتصادية، وحدات حمام بسيطة (مرحاض - حوض - مرآة)
+                  <strong>الحمامات:</strong> خلّاطات من ماركات اقتصادية، وحدات
+                  حمام بسيطة (مرحاض - حوض - مرآة)
                 </li>
                 <li>
-                  <strong className="text-xl">الأبواب:</strong> أبواب داخلية من
-                  خشب MDF-HDF ببطانة PVC أو دهان دوكو، باب رئيسي - متوسط الجودة
+                  <strong>الأبواب:</strong> أبواب داخلية من خشب MDF-HDF ببطانة
+                  PVC أو دهان دوكو، باب رئيسي - متوسط الجودة
                 </li>
                 <li>
-                  <strong className="text-xl">الإضاءة:</strong> تركيب SPOT LIGHT
+                  <strong>الإضاءة:</strong> تركيب SPOT LIGHT
                 </li>
               </ul>
 
               {/* مميزات الفئة */}
               <div className="border-t pt-6 space-y-4">
-                <h3 className="text-2xl font-bold">مميزات الفئة</h3>
-                <div className="grid sm:grid-cols-2 gap-4 text-lg">
+                <h3 className="text-xl font-bold">مميزات الفئة</h3>
+                <div className="grid sm:grid-cols-2 gap-4 text-sm">
                   <p>أسرع مدة تنفيذ</p>
                   <p>مناسبة للميزانيات المحدودة</p>
                   <p>مدة التنفيذ: من 30 يوم إلى 45 يوم (حسب مساحة المشروع)</p>

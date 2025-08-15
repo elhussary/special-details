@@ -16,25 +16,25 @@ const PremiumPlan = () => {
       <section className="space-y-10">
         {/* العنوان */}
         <div className="flex items-center border-b pb-2 gap-3">
-          <h3 className="text-2xl font-bold">فئات التشطيب</h3>
+          <h3 className="text-xl font-bold">فئات التشطيب</h3>
           <span className="text-3xl font-bold italic">Premium</span>
         </div>
 
         {/* الوصف */}
         <div className="space-y-4">
-          <h4 className="text-xl font-bold text-primary">
+          <h4 className="font-semibold text-primary">
             توازن بين الجودة والجمال
           </h4>
 
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed text-sm">
             هذة الفئة هي خيار مثالی لمن بيحث عن جودة و لمسة جمالية عصرية
           </p>
         </div>
 
         {/* المميزات */}
         <div className="space-y-6">
-          <h5 className="text-lg font-bold">تشمل فئة Premium على:</h5>
-          <ul className="space-y-3">
+          <h5 className="font-bold">تشمل فئة Premium على:</h5>
+          <ul className="space-y-3 text-sm leading-relaxed">
             <li className="flex items-start gap-2">
               <CheckCircle2 className="text-primary w-5 h-5 mt-1" />
               <span>

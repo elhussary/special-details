@@ -1,52 +1,64 @@
-import AboutUs from "@/components/about-us";
 import HeroSection from "@/components/hero-section";
-import Navigation from "@/components/navigation";
-import OurMission from "@/components/our-mission";
-import OurVision from "@/components/our-vision";
+import Navigation from "@/components/Layout/navigation";
 import Services from "@/components/Services/services";
-import { MapPin, Phone, Mail } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      {/* Navigation */}
-      <Navigation />
       {/* Hero Section */}
       <HeroSection />
-      {/* About Us, Mission & Vision */}
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 py-12">
-        <AboutUs />
 
-        <div className="space-y-10">
-          <OurMission />
-          <OurVision />
-        </div>
-      </div>
       {/* Services Section */}
       <Services />
 
-      {/* Footer */}
-      <footer className="bg-primary py-8 text-gray-300">
-        <div className="container flex flex-col md:flex-row justify-between items-start gap-8">
-          {/* Logo */}
+      <section className="py-12">
+        <div className="container mx-auto px-4">
+          {/* العنوان والزرار */}
+          <div className="flex flex-col md:flex-row items-center justify-between mb-8">
+            <h2 className="text-4xl font-bold mb-4 md:mb-0">المعرض</h2>
+            <a
+              href="/protorfilo"
+              className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition"
+            >
+              تصفح اعمالنا
+            </a>
+          </div>
 
-          {/* Contact Info */}
-          <ul className="flex flex-col gap-4  md:text-left">
-            <li className="flex items-center gap-3">
-              <MapPin className="w-6 h-6" />
-              <span>أبوظبي، منطقة الخالدية، بناية الجابر للمجوهرات</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <Phone className="w-6 h-6 " />
-              <span>00971565422122</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <Mail className="w-6 h-6" />
-              <span>Sepcialdetails@gmail.com</span>
-            </li>
-          </ul>
+          {/* الصور */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1">
+            <img
+              src="/interior1.png"
+              alt="Interior 1"
+              className="w-full h-64 object-cover shadow-md"
+            />
+            <img
+              src="/interior2.png"
+              alt="Interior 2"
+              className="w-full h-64 object-cover shadow-md"
+            />
+            <img
+              src="/interior3.png"
+              alt="Interior 3"
+              className="w-full h-64 object-cover  shadow-md"
+            />
+            <img
+              src="/interior3.png"
+              alt="Interior 3"
+              className="w-full h-64 object-cover shadow-md"
+            />
+            <img
+              src="/interior3.png"
+              alt="Interior 3"
+              className="w-full h-64 object-cover shadow-md"
+            />
+            <img
+              src="/interior3.png"
+              alt="Interior 3"
+              className="w-full h-64 object-cover  shadow-md"
+            />
+          </div>
         </div>
-      </footer>
+      </section>
     </div>
   );
 };

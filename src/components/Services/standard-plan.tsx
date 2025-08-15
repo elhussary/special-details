@@ -16,17 +16,15 @@ const StandardPlan = () => {
       <section className="space-y-10">
         {/* العنوان */}
         <div className="flex items-center  border-b pb-2 gap-3">
-          <h3 className="text-2xl font-bold">فئات التشطيب</h3>
+          <h3 className="text-xl font-bold">فئات التشطيب</h3>
           <span className="text-3xl font-bold  italic">Standard</span>
         </div>
 
         {/* الوصف */}
         <div className="space-y-4">
-          <h4 className="text-xl font-bold text-primary">
-            تشطيب عملي بأساسيات متقنة
-          </h4>
+          <h4 className="font-semibold">تشطيب عملي بأساسيات متقنة</h4>
 
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed text-sm">
             تم تصميم هذه الفئة لتناسب العملاء الذين يبحثون عن تشطيب اقتصادي
             وفعال، يجمع بين البساطة الوظيفية والمواد الأساسية ذات الجودة
             المقبولة.
@@ -35,8 +33,8 @@ const StandardPlan = () => {
 
         {/* المميزات */}
         <div className="space-y-6">
-          <h5 className="text-lg font-bold">تشمل فئة Standard على:</h5>
-          <ul className="space-y-3">
+          <h5 className=" font-bold">تشمل فئة Standard على:</h5>
+          <ul className="space-y-3 text-sm">
             {[
               "الأعمال الإنشائية والأساسية",
               "تأسيس الكهرباء والسباكة طبقاً للمخططات",
