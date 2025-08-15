@@ -1,14 +1,12 @@
-const Navbar = () => {
+const Navigation = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-card/10 border-b border-border/20">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center h-16">
-        <div className="text-2xl font-bold text-gradient">
-          <a href="#">
-            <img src="/home-logo.png" alt="LOGO" width={250} height={250} />
-          </a>
-        </div>
+    <nav className="absolute top-0 left-0 w-full z-20">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center h-20">
+        <a href="#">
+          <img src="/logo1.png" alt="LOGO" width={300} height={300} />
+        </a>
 
-        <div className="hidden md:flex gap-8">
+        <div className="hidden md:flex gap-8 text-white">
           <a href="#hero" className="hover:text-primary transition-colors">
             الرئيسية
           </a>
@@ -36,4 +34,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;
